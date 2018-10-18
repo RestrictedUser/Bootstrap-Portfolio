@@ -23,6 +23,31 @@ body {
   background-image:url('https://st2.depositphotos.com/2543399/9107/i/950/depositphotos_91079116-stock-photo-vintage-or-grungy-white-background.jpg');
 }
 
+a{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+#repo{
+  padding-left:450px;
+}
+
+a:hover{
+text-decoration: underline !important;
+}
+
+#git{
+  width:100px;
+  height:50px;
+}
+
+#aboutMe{
+  width:39rem;
+  height:44rem;
+}
+
   </style>
 
 </head>
@@ -30,7 +55,7 @@ body {
 <body>
 
 
-    <header> <!--NavBar with links to index/contact/aboutme-->
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="https://www.linkedin.com/in/tyler-middleton-bab663139/" target="_blank">Tyler Middleton</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,25 +64,24 @@ body {
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="index.html">About</a>
                 </li>
                 
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+              
+                <li class="nav-item active">
+                    <a id ="repo" class="nav-link" href="https://github.com/RestrictedUser" target="_blank">Click<img id="git" src="assets/images/git-logo.png"></a>
+                  </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
             </div>
           </nav>
-    </header><!--End NavBar-->
-    
+    </header>
     
     <h2>About Me</h2>
     <div class="container"><!--container Starts-->
@@ -65,11 +89,11 @@ body {
     <div class="col-2"></div>
     <div class="col"><!--card col-->
     <div class="card" style="width: 40rem; height:45rem;">
-        <img class="card-img-top" src="assets/images/cat.jpg" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+        <img id="aboutMe" class="card-img-top" src="assets/images/IMG_0711.JPG" alt="Card image cap">
+        <div class="card-body" style="background-color: white;">
+          <p class="card-text">Hello; my name is Tyler Middleton, currently RestrictedUser on GitHub. I have made this page to show other developers and potential employers what kind of projects and applications I have made or contributed too. As well as have easy access to my Linked In account and github Repo.</p>
 
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quasi fuga laborum aliquam sequi officia nulla. Deserunt rem quia dolorum cupiditate temporibus libero cumque, natus repellat. Eius reprehenderit totam adipisci.</p>
+          <p>My coding background consists of full stack development classes.I have completed some college course in HTML/CSS and Javascript/Jquery.The projects you currently see on my portfolio are created while doing UC Davis Bootcamp in 2018. I plan to create new applications in the future. </p>
         </div><!--Card body Ends-->
       </div><!--card Ends-->
     </div><!--Card content col Ends-->
@@ -82,20 +106,12 @@ body {
     
   
 
-
-  <footer>
-    <div class="container">
-       
-    
-    <div class="row">
-      <div class="col-3">
-      </div>
-      <div class="col">
-          Copyright &copy;
-      </div>
-    </div>
-  </div>
-  </footer>
+<!-- positioning issue -->
+    <!-- <footer>
+        <div class="container">
+          Copyright &copy; 
+        </div>
+      </footer> -->
 </body>
 
 </html>
