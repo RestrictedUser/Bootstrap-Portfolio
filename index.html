@@ -45,7 +45,18 @@ text-decoration: underline !important;
 
 #aboutMe{
   width:39rem;
-  height:42rem;
+  height:35rem;
+}
+
+#aboutMeHover:hover{
+  box-shadow: 9px 9px 9px 9px white;
+  cursor: pointer;
+}
+
+#pHover:hover{
+  box-shadow: 9px 9px 9px 9px yellow;
+  cursor: pointer;
+  padding-bottom: 30px;
 }
 
   </style>
@@ -88,10 +99,12 @@ text-decoration: underline !important;
     <div class="row"><!--Row Starts-->
     <div class="col-2"></div>
     <div class="col"><!--card col-->
-    <div class="card" style="width: 40rem; height:45rem;">
-        <img id="aboutMe" class="card-img-top" src="assets/images/IMG_0329.JPG" alt="Card image cap">
-        <div class="card-body" style="background-color: white;">
-          <p class="card-text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Hello; my name is Tyler Middleton, currently RestrictedUser on GitHub. I have made this page to show other developers and potential employers what kind of projects and applications I have made and contributed too. As well as have easy access to my Linked In account and Github Repo.</p>
+    <div id="aboutMeHover" class="card" style="width: 40rem; height:45rem;">
+        
+      <!-- image of author -->
+      <img id="aboutMe" class="card-img-top" src="assets/images/IMG_0329.JPG" alt="Card image cap">
+        <div id="pHover" class="card-body" style="background-color: white;">
+          <p class="card-text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" alt="img of Author">Hello; my name is Tyler Middleton, currently RestrictedUser on GitHub. I have made this page to show other developers and potential employers what kind of projects and applications I have made and contributed too. As well as have easy access to my Linked In account and Github Repo.</p>
 
           <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">My coding background consists of full stack development classes.I have completed some college course in HTML/CSS and Javascript/Jquery.The projects you currently see on my portfolio are created while doing UC Davis Bootcamp in 2018. I plan to create new applications in the future. </p>
         </div><!--Card body Ends-->
