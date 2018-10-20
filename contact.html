@@ -47,18 +47,28 @@ text-decoration: underline !important;
   height:50px;
 }
 
+#git:hover{
+  box-shadow: 9px 9px 9px 9px yellow;
+  cursor: pointer;
+}
+
 #listCon:hover{
   box-shadow: 9px 9px 9px 9px white;
   cursor: pointer;
 }
 
-li:hover{
+.listHover:hover{
   box-shadow: 9px 9px 9px 9px yellow;
   cursor: pointer;
 }
 
 #still:hover{
   box-shadow: 9px 9px 9px 9px blue;
+}
+
+#navHover:hover{
+  box-shadow: 9px 9px 9px 9px purple;
+  cursor: pointer;
 }
 
 </style>
@@ -76,14 +86,14 @@ li:hover{
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li id="navHover" class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li id="navHover" class="nav-item">
                   <a class="nav-link" href="index.html">About</a>
                 </li>
                 
-                <li class="nav-item active">
+                <li id="navHover" class="nav-item active">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               
@@ -101,13 +111,13 @@ li:hover{
 
       <ul id="listCon" style="list-style:none; font-family: 'Gloria Hallelujah', cursive;">
         
-        <li>Linked In:    <a class="navbar-brand" href="https://www.linkedin.com/in/tyler-middleton-bab663139/" target="_blank"><img style="height:150px;" src="assets/images/linkedinlogo.gif">
+        <li class="listHover">Linked In:    <a class="navbar-brand" href="https://www.linkedin.com/in/tyler-middleton-bab663139/" target="_blank"><img style="height:150px;" src="assets/images/linkedinlogo.gif">
         </a>
         </li>
 
         <br>
 
-        <li>GitHub-Repo:<a class="nav-link" href="https://github.com/RestrictedUser" target="_blank"><img style="height:100px;" src="assets/images/git-logo.png">
+        <li class="listHover">GitHub-Repo:<a class="nav-link" href="https://github.com/RestrictedUser" target="_blank"><img style="height:100px;" src="assets/images/git-logo.png">
         </a>
         </li>
 

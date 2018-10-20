@@ -64,3 +64,27 @@ a:hover{
     width:100px;
     height:50px;
   }
+
+  #git:hover{
+    box-shadow: 9px 9px 9px 9px yellow;
+    cursor: pointer;
+  }
+  
+  #listCon:hover{
+    box-shadow: 9px 9px 9px 9px white;
+    cursor: pointer;
+  }
+  
+  .listHover:hover{
+    box-shadow: 9px 9px 9px 9px yellow;
+    cursor: pointer;
+  }
+  
+  #still:hover{
+    box-shadow: 9px 9px 9px 9px blue;
+  }
+  
+  #navHover:hover{
+    box-shadow: 9px 9px 9px 9px purple;
+    cursor: pointer;
+  }
