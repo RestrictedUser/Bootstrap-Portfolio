@@ -7,3 +7,7 @@ Features:
 - about me so that users can see a little insight into myself as a developer and a person
 -connected to my github profile through click Git icon link
 - click my name to find my linked in profile or any of the linked in icons
+
+Developer Notes: App focuses on data on players in the NFL from 2017 only. Type names for player search with capitals as the first letter in the name. 
+
+EX.Tom Brady
