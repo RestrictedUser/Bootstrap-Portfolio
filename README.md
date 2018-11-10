@@ -8,4 +8,6 @@ Features:
 -connected to my github profile through click Git icon link
 - click my name to find my linked in profile or any of the linked in icons
 
+I am updating my github with new projects on a weekly bases so keep checking in!
 
+![alt text](https://github.com/RestrictedUser/Bootstrap-Portfolio/blob/master/assets/images/IMG_0329.JPG?raw=true)
